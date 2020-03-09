@@ -1,38 +1,67 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
   
-  .html {
-    scroll-behavior: smooth;
-    height: 100%;
-  }
+.html {
+  scroll-behavior: smooth;
+  height: 100%;
+}
 
-  header {
-    background: white;
-    height: 50px;
-    color:  rgb(0, 45, 162);
-    margin: 1rem;
-  }
+header {
+  background: white;
+  height: 50px;
+  color:  rgb(0, 45, 162);
+  margin: 2rem;
+}
   
-  .bold {
-    font-size: 1.2rem;
-  }
+.bold {
+  font-size: 1.2rem;
+}
   
-  body {
-    font-family: 'Arvo', serif;
-  }
+body {
+  font-family: 'Arvo', serif;
+}
   
-  #logo {
-    height: 50px;
-  }
+#logo {
+  height: 50px;
+}
   
-  nav {
-    background: rgb(0, 45, 162);
-    height: 3rem;
-  }
-  
+#navbar {
+  /* background: rgb(0, 45, 162); */
+  background: white;
+  height: 20rem;
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+}
+
+ul li {
+  float: left;
+  margin-top: 20px; 
+}
+
+ul li a {
+  width: 150px;
+  color: black;
+  display: block;
+  text-decoration: none;
+  font-size: 20px;
+  text-align: center;
+  padding: 10px;
+  font-family: 'Arvo', serif;
+  font-weight: bold;
+}
+
+
+
+
   #section_1 {
     background: url("https://source.unsplash.com/bwki71ap-y8") no-repeat center
       center/cover;
