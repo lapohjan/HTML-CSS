@@ -106,10 +106,17 @@ nav ul li ul li a:hover {
   text-shadow: 0 0 0.5px #333;
 }
 
+#jobsHeader {
+  font-size: 80px;
+}
+
+#jobsP {
+  font-size: 25px;
+}
+
 #container_1 {
   width: 30rem;
   color: white;
-  font-size: 20px;
   text-align: center;
   margin-top: 0;
   margin-right: auto;
@@ -117,6 +124,7 @@ nav ul li ul li a:hover {
   margin-left: auto;
   padding: 1rem;
 }
+
 
 #category {
   height: 300px;
