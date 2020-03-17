@@ -104,8 +104,17 @@ footer {
   padding: 1rem;
 }
 
+
 .columns {
   display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 1rem;
+  padding: auto;
+  color: white;
+  margin-top: 0;
+  margin-right: auto;
+  margin-bottom: 0;
+  margin-left: auto;
 }
   
 form {
