@@ -10,34 +10,49 @@
     background: #f4f4f4;
   }
   
-  #logo {
-    color: white;
-    font-size: 25px;
-    margin-left: 3rem;
-    margin-top: 2rem;
-  }
+header {
+  background: black;
+  color: white;
+  font-size: 30px;
+  width: 100%;
+  height: 5rem;
+  padding: 1rem;
+}
+
+#logo {
+  font-size: 30px;
+}
+
+.container {
+  max-width: 1500px;
+  min-width: 500px;
+}
+
+
+nav {
+  list-style-type: none;
+  float: right;
+  color: white;
+  font-size: 15px;
+}
   
-  header {
-    background: black;
-    width: 100%;
-    padding: 1rem;
-    display: inline-flex;
-  }
+nav a:link {
+  text-decoration: none;
+}
+
+nav a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+nav a:hover {
+  border-bottom: 4px solid white;
+}
   
-  nav {
-    list-style-type: none;
-    display: inline-flex;
-    float: right;
-  }
-  
-  nav a:hover {
-    background: orange;
-    border-bottom: 4px solid #fe6000;
-  }
-  
-  ul {
-    margin: 1rem;
-  }
+ul {
+  margin: 1rem;
+  list-style: none;
+}
   
   #section1 {
     background: url("https://source.unsplash.com/featured/?laptop") no-repeat center center/cover;
@@ -45,19 +60,25 @@
     padding: 1rem;
   }
   
+  #container2 {
+    display: flex;
+    padding: 1rem;
+    margin: 0;
+  }
+
   #image2 {
     background: url("https://source.unsplash.com/featured/?laptop,human");
     object-fit: center, contain;
     width: 100rem;
     min-height: 20rem;
     max-height: 20rem;
-    padding: 1rem;
-    margin: 0rem;
   }
   
-  #section2 {
-    display: flex;
-  }
+#text1 {
+  margin: 1rem;
+}
+
+
   
   #section4 {
     margin: 0;
@@ -76,7 +97,7 @@
     text-transform: uppercase;
     text-decoration: none;
     box-shadow: none;
-    background-color: #fe6000;
+    background-color: #aaaaaa;
   }
   
   footer {
