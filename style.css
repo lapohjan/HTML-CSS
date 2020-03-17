@@ -61,7 +61,8 @@ h2 {
   }
 
 .container {
-  width: 700px;
+  max-width: 1000px;
+  min-width: 500px;
   background: rgba(255, 255, 255, 0.507);
   border-radius: 20px;
   padding: 2rem;
@@ -76,15 +77,18 @@ h2 {
   #present,
   #future,
   #contact {
-    height: 550px;
+    min-height: 200px;
+    max-height: 700px;
     width: 100%;
     padding: 10px;
     display: block;
   }
   
   #past {
-    background: url("https://source.unsplash.com/Pgv3uzypy6g");
+    background: url("https://source.unsplash.com/Pgv3uzypy6g") no-repeat center
+    center/cover;
     color: #000;
+   
   }
   
   #present {
@@ -92,7 +96,8 @@ h2 {
   }
   
   #future {
-    background: url("https://source.unsplash.com/W9L8a0B2kV4");
+    background: url("https://source.unsplash.com/W9L8a0B2kV4") no-repeat center
+    center/cover;
   }
   
   #contact {
