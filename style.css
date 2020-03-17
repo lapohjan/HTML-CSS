@@ -16,7 +16,6 @@ header {
   font-size: 30px;
   width: 100%;
   height: 5rem;
-  padding: 1rem;
 }
 
 #logo {
@@ -78,7 +77,20 @@ ul {
   margin: 1rem;
 }
 
+#readMore {
+font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: lightgrey;
+  color: black;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
 
+#readMore:hover {
+  background-color: #555;
+}
   
 #section4 {
   margin: 0;
@@ -90,18 +102,28 @@ ul {
   padding: 1rem;
 }
   
-.btn {
-  display: inline-block;
-  border-radius: 2px;
-  padding: 10px 20px;
-  text-transform: uppercase;
-  text-decoration: none;
-  box-shadow: none;
-  background-color: #aaaaaa;
+#myBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: lightgrey;
+  color: black;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
 }
   
 footer {
   padding: 1rem;
+  color: black;
 }
 
 
@@ -110,7 +132,6 @@ footer {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 1rem;
   padding: auto;
-  color: white;
   margin-top: 0;
   margin-right: auto;
   margin-bottom: 0;
