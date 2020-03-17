@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    height: 100%;
+}
+
+body {
+    font-family: "Work Sans", sans-serif;
+    background: #f4f4f4;
+    height: 100%;
+}
+
+main {
+    margin: 20px;
+    padding: 5px;
+}
+
+#Welcome {
+    width: 300px;
+    height: 300px;
+    border: 0 solid black;
+    padding: 10px;
+    background-color: rgba(255, 136, 25, 0.5);
+    border-radius: 25px;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: rgba(432, 234, 543, 0, 5);
+    padding: 50px;
+    border-radius: 10px;
+}
+
+h2 {
+    margin-bottom: 30px;
+}
+
+header {
+    background: #ffff;
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background: orange;
+    border-bottom: 4px solid #fe6000;
+}
+
+#welcome,
+#aboutUS,
+#contact {
+    height: 800px;
+    width: 100%;
+}
+
+#logo {
+    height: 100px;
+}
+
+#scenery {
+    height: 200px;
+}
+
+.container {
+    padding: 50px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.btn {
+    display: inline-block;
+    border-radius: 2px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    box-shadow: none;
+}
