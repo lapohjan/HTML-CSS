@@ -80,30 +80,34 @@ ul {
 
 
   
-  #section4 {
-    margin: 0;
-    background: lightgrey;
-  }
+#section4 {
+  margin: 0;
+  background: lightgrey;
+}
   
-  #section5 {
-    margin: 1rem;
-    padding: 1rem;
-  }
+#section5 {
+  margin: 1rem;
+  padding: 1rem;
+}
   
-  .btn {
-    display: inline-block;
-    border-radius: 2px;
-    padding: 10px 20px;
-    text-transform: uppercase;
-    text-decoration: none;
-    box-shadow: none;
-    background-color: #aaaaaa;
-  }
+.btn {
+  display: inline-block;
+  border-radius: 2px;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  box-shadow: none;
+  background-color: #aaaaaa;
+}
   
-  footer {
-    padding: 1rem;
-  }
+footer {
+  padding: 1rem;
+}
+
+.columns {
+  display: grid;
+}
   
-  form {
-    margin: 1rem;
-  }
+form {
+  margin: 1rem;
+}
