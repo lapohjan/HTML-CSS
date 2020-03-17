@@ -17,9 +17,6 @@
     border-radius: 10%;
   }
   
-  .container {
-   
-  }
   
   h2 {
     margin-bottom: 30px;
@@ -27,12 +24,17 @@
   
   header {
     background: black;
-    text-align: right;
+    color: white;
     width: 100%;
     padding: 20px;
     height: 100px;
   }
   
+nav {
+  float: right;
+  text-decoration: none;
+}
+
   nav ul {
     list-style-type: none;
     padding: 20px;
@@ -45,6 +47,19 @@
   nav ul li a:hover {
     background: white;
   }
+
+.container {
+  width: 700px;
+  background: rgba(255, 255, 255, 0.356);
+  border-radius: 20px;
+  padding: 2rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+
+}
   
   #past,
   #present,
@@ -53,6 +68,7 @@
     height: 500px;
     width: 100%;
     padding: 10px;
+    display: block;
   }
   
   #past {
