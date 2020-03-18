@@ -151,9 +151,17 @@ font-size: 18px;
   padding: 1rem;
 }
 
+.fa-html5 {
+  font-size: 60px;
+}
+
+.fa-css3-alt {
+font-size: 60px;
+}
+
 .square {
   height: 150px;
-  width: 220px;
+  width: 250px;
   background-color: white;
   display: flex;
   justify-content: center;
