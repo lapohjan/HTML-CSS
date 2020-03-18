@@ -111,7 +111,7 @@ nav ul li ul li a:hover {
     width: 100rem;
     min-height: 20rem;
     max-height: 20rem;
-    margin: 1rem 0rem 0rem 0rem;
+    margin: 1rem 0rem 1rem 0rem;
   }
   
 #text1 {
@@ -136,13 +136,41 @@ font-size: 18px;
 #section4 {
   margin: 0;
   background: lightgrey;
+  padding: 1rem;
+}
+
+#container4 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
   
 #section5 {
   margin: 1rem;
   padding: 1rem;
 }
+
+.square {
+  height: 150px;
+  width: 220px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2%;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+/* .circle { 
+  height: 50px;
+  width: 50px;
+  background-color: rgb(132, 220, 255);
+  border-radius: 50%;
+} */
   
+
 #myBtn {
   position: fixed;
   bottom: 20px;
