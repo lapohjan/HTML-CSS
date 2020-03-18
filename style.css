@@ -1,14 +1,14 @@
 .html {
-    scroll-behavior: smooth;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-  }
+  scroll-behavior: smooth;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
   
-  body {
-    font-family: "Work Sans", sans-serif;
-    background: #f4f4f4;
-  }
+body {
+  font-family: "Work Sans", sans-serif;
+  background: #f4f4f4;
+}
   
 header {
   background: black;
@@ -95,7 +95,7 @@ nav ul li ul li a:hover {
 
 
 #section1 {
-  background: url("https://source.unsplash.com/featured/?laptop") no-repeat center center/cover;
+  background: url("https://source.unsplash.com/featured/?laptop, workstation") no-repeat center center/cover;
   height: 15rem;
   padding: 1rem;
   color: white;
@@ -107,11 +107,11 @@ nav ul li ul li a:hover {
 }
 
 #image2 {
-  background: url("https://source.unsplash.com/featured/?laptop,human");
+  background: url("https://source.unsplash.com/featured/?code");
   object-fit: center, contain;
   width: 100rem;
   min-height: 20rem;
-  max-height: 20rem;
+  max-height: 25rem;
   margin: 1rem 0rem 1rem 0rem;
 }
   
@@ -134,7 +134,7 @@ font-size: 18px;
   background-color: #555;
 }
   
-#section4 {
+#section2 {
   margin: 0;
   background: lightgrey;
   padding: 1rem;
@@ -147,7 +147,7 @@ font-size: 18px;
   justify-content: space-evenly;
 }
   
-#section5 {
+#container3 {
   margin: 1rem;
   padding: 1rem;
 }
