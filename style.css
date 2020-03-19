@@ -1,16 +1,18 @@
 html {
   scroll-behavior: smooth;
 }
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   font-family: "Work Sans", sans-serif;
   background: #f4f4f4;
 }
-  
+
 header {
   background: black;
   color: white;
@@ -21,13 +23,15 @@ header {
   display: flex;
   justify-content: space-between;
 }
+
 #logo {
   font-size: 30px;
   height: 33px;
 }
+
 .container {
   max-width: 1500px;
-  min-width: 500px;
+  min-width: 200px;
 }
 
 nav {
@@ -94,7 +98,6 @@ nav ul li ul li a:hover {
   background: rgb(241, 241, 241);
 }
 
-
 #section1 {
   background: url("https://source.unsplash.com/featured/?rainbow") no-repeat center center/cover;
   width: 100%;
@@ -115,12 +118,19 @@ nav ul li ul li a:hover {
 #image2 {
   background: url("https://source.unsplash.com/featured/?sea");
   object-fit: center, contain;
-  width: 100rem;
-  min-height: 20rem;
+  width: 100%;
+  min-height: 15rem;
   max-height: 25rem;
   border-radius: 1%;
 }
 
+@media only screen and (max-width: 600px) {
+  #container2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; 
+  }
+}
 
 #text,
 #text li {
@@ -141,7 +151,7 @@ nav ul li ul li a:hover {
 #readMore:hover {
   background-color: #555;
 }
-  
+
 #section2 {
   margin: 0;
   background: rgb(193, 225, 228);
@@ -154,7 +164,7 @@ nav ul li ul li a:hover {
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
-  
+
 #container3 {
   margin: 1rem;
   padding: 1rem;
@@ -176,7 +186,6 @@ nav ul li ul li a:hover {
 .fa-figma {
   font-size: 60px;
 }
-  
 
 .square {
   height: 150px;
@@ -190,7 +199,7 @@ nav ul li ul li a:hover {
   margin: 1rem;
 }
 
-.circle { 
+.circle {
   height: 100px;
   width: 100px;
   background-color: rgb(236, 176, 152);
@@ -201,7 +210,6 @@ nav ul li ul li a:hover {
   padding: 1rem;
   margin: 1rem;
 }
-  
 
 #myBtn {
   position: fixed;
@@ -221,22 +229,23 @@ nav ul li ul li a:hover {
 #myBtn:hover {
   background-color: #555;
 }
-  
+
 footer {
   padding: 1rem;
   color: black;
 }
 
-
 .columns {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-gap: 1rem;
-  padding: auto;
-  margin-top: 0;
-  margin-right: auto;
-  margin-bottom: 0;
-  margin-left: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.cart {
+  max-width: 400px;
+  min-width: 100px;
+  padding: 1rem;
 }
 
 form {
