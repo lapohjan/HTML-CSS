@@ -30,6 +30,8 @@ function topFunction() {
 }
 
 
+
+
 /* When the user clicks on the button, 
 toggle between hiding and showing the dropdown content */
 function myFunction() {
@@ -49,3 +51,5 @@ window.onclick = function(event) {
     }
   }
 }
+
+//source: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_js_dropdown
