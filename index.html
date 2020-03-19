@@ -3,12 +3,12 @@
 
 <head>
     <title>Webpage</title>
-    <link rel="stylesheet" href="mystyle.css" />
+    <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
     <header>
-        <div id="headerOne"><img id=logo src="logo.png" /></div>
+        <img id="logo" src="assets/logo.png" alt="airplane">
         <nav>
             <ul>
                 <li><a href="#home">Home</a></li>
@@ -18,22 +18,33 @@
         </nav>
     </header>
     <main>
-        <div id="background">
+     <div class="container" id="container1">
+        <div id="section1">
             <div id="Welcome">
                 <h1>Welcome to our homepage!</h1>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro aliquid earum libero facere, voluptate magni provident ipsa aspernatur totam ratione enim minus. Vitae optio placeat vel pariatur. Molestias, aliquid voluptas.</p>
             </div>
         </div>
-        <div="AboutUs">
-            <h2>About us</h2>
-            <img id="scenery" src="https://images.unsplash.com/photo-1505765050516-f72dcac9c60e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80" />
-            <p>
-                Lorem ipssum dolor, sit amet consectetur adipisicing elit. Nihil totam vero molestias placeat nesciunt voluptates. Autem voluptas recusandae, quam vero quibusdam suscipit omnis natus reiciendis quia esse soluta, similique harum aliquam non a repellendus corrupti debitis sequi porro? Distinctio vero temporibus harum ea explicabo officiis dolores fuga nobis praesentium magni.
-            </p>
+    </div>
+    <div class="container" id="container2">
+        <div id="section2">
+            <div id="text">
+                <h2>About us</h2>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil totam vero molestias placeat nesciunt voluptates. Autem voluptas recusandae, quam vero quibusdam suscipit omnis natus reiciendis quia esse soluta, similique harum aliquam non a repellendus corrupti debitis sequi porro?</p>
+                <p>Distinctio vero temporibus harum ea explicabo officiis dolores fuga nobis praesentium magni.
+                </p>
             </div>
+            <div id="picture">
+                <img id="small_picture" />
+            </div>
+        </div>
+    </div>
+
 
     </main>
     <footer id="contact">
+        <div class="container" id="container3">
         <div id="form">
             <h2>Contact us</h2>
             <form>
@@ -41,17 +52,14 @@
                     <label for="firstname">First name</label>
                     <input type="text" name="firstname" id="firstname" />
                 </div>
-
                 <div class="form-group">
                     <label for="lastname">Last name</label>
                     <input type="text" name="lastname" id="lastname" />
                 </div>
-
                 <div class="form-group">
                     <label for="email">Email</label>
                     <input type="email" name="email" id="email" />
                 </div>
-
                 <div class="radio">
                     <h4>Would you like to subscribe to our newsletter?</h4>
                     <label for="radio1">Yes</label>
@@ -59,7 +67,6 @@
                     <label for="radio2">No</label>
                     <input type="radio" name="radio2" id="radio2" />
                 </div>
-
                 <div class="checkbox">
                     <h4>How did you find us?</h4>
                     <label for="checkbox1">Friend told me</label>
@@ -75,13 +82,12 @@
                     <input type="checkbox" name="checkbox4" id="checkbox4" />
                     <br>
                 </div>
-
-                <div class="submit">
                     <button type="submit">Send</button>
                 </div>
             </form>
 
         </div>
+    </div>
     </footer>
 </body>
 
