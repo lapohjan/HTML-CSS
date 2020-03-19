@@ -238,6 +238,22 @@ footer {
   margin-bottom: 0;
   margin-left: auto;
 }
+
 form {
   margin: 1rem;
+}
+
+#send {
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: rgb(236, 176, 152);
+  color: black;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#send:hover {
+  background-color: #555;
 }
